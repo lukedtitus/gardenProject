@@ -1,0 +1,9 @@
+.text-center{
+    text-align: center;
+}
+
+.content{
+    border: solid 1px black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
