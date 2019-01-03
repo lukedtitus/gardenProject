@@ -1,0 +1,7 @@
+.image{
+    height:40em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('https://unsplash.com/photos/jJzmexjwfGE');
+    background-position:100%;
+  }
