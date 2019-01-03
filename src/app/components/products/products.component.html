@@ -1,3 +1,26 @@
-<p>
-  products works!
-</p>
+<!-- <h1>Garden Guru Products</h1>
+<br>
+<br>
+<br>
+<div class="deck">
+  <div class="card">
+      <div class="cardContainer">
+          <h1><i *ngFor="let product of products$">{{ products$.product_name }}</i></h1>
+          <p>{{ products$.product_price }}</p>
+      </div>
+  </div>
+</div> -->
+
+<h1>Garden Guru Products</h1>
+<br>
+<br>
+<div class="deck"  *ngFor="let product of products$">
+    <div class="card">
+        <div class="cardContainer">
+                <h1>{{ product.product_name }}</h1>
+                <h3>${{ product.product_price }}</h3>
+                <p>{{ product.product_description }}</p>
+                <img src= "{{ product.product_image }}">
+        </div>
+    </div>
+</div>

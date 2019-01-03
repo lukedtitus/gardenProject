@@ -1,9 +1,57 @@
+<div class="body">
 <h1 class="text-center">
   Garden Guru
 </h1>
 
 <div class="content text-center">
-  <p>
-    Garden Guru was founded in the early 1900s by a man named Joshua Tucker who had a dream about gardening. Not only did he enjoy gardening for practical reasons such as providing food and resources, but he also simply enjoyed looking at the beautiful forms of life. He especially enjoyed watching them grow. He had faith that other people might feel the same feelings as him so he decided to start a business that provided any and all gardening needs. Today, over 100 years later, Tucker's descendant, also named Josh Tucker, 
+  <p style="font-weight: bold;">
+    Garden Guru was founded in the early 1900s by a man named Joshua Tucker who had a dream about gardening. Not only did he enjoy gardening for practical reasons such as providing food and resources, but he also simply enjoyed looking at the beautiful forms of life. He especially enjoyed watching them grow. He had faith that other people might feel the same feelings as him so he decided to start a business that provided any and all gardening needs. Today, over 100 years later, Tucker's descendant, also named Josh Tucker, has decided to carry on with the family business in order to provide the most cutting edge gardening technology to his valued customers as his grandfather did before him. Garden Guru is a brand that is built in family and tradition that you can trust for your gardening needs!
   </p>
+</div>
+
+<section id="contact">
+  <div class="contactContainer">
+    <h2 class="text-center">Contact Your Garden Guru</h2>
+        <div class="row">
+          <form action="https://formspree.io/michelle@dougvann.com" class="submitForm" onclick="lock()" method="POST">
+            <div class="control-group">
+              <div class="form-group" style="margin:0;">
+                <label>Name</label>
+                  <input type="text" class="form-control" placeholder="Your Name" id="name"
+                    required data-validation-required-message="Please enter your name"
+                      name="name">
+                    <p class="help-block text-danger"></p>
+                  </div>
+              </div>
+              <div class="control-group">
+                  <div class="form-group" style="margin:0;">
+                      <label>Email Address</label>
+                      <input type="email" class="form-control" placeholder="Your Email" id="email"
+                          required data-validation-required-message="Please enter your email"
+                          name="_replyto">
+                      <p class="help-block text-danger"></p>
+                  </div>
+              </div>
+              <div class="control-group">
+                  <div class="form-group">
+                      <textarea class="form-control" rows="4" placeholder="Your Message" id="message"
+                          required data-validation-required-message="Please leave a message"
+                          name="message"></textarea>
+                      <p class="help-block text-danger"></p>
+                  </div>
+              </div>
+              <div class="text-center">
+                  <div id="success"></div>
+                  <a target="blank" 
+                      role="button" style="padding-right: 4%">
+                  </a>
+                  <button class="btn btn-med btn-danger" type="submit" style="margin:0;">
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                      Send Message
+                  </button>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
 </div>
