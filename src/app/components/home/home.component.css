@@ -1,0 +1,20 @@
+.body {
+    height: 695px;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('https://images.unsplash.com/photo-1428856472086-8674d9cbd6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') fixed center center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .title {
+    color: #2B803E;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Righteous', cursive;
+    font-size: 4em;
+  }
+  
+  .logo {
+    height: 20em;
+    z-index: 5;
+  } 
