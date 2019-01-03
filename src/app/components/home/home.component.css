@@ -1,5 +1,5 @@
 .body {
-    height: 695px;
+    height: 70em;
     width: 100%;
     background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('https://images.unsplash.com/photo-1428856472086-8674d9cbd6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') fixed center center;
     background-size: cover;
@@ -18,3 +18,16 @@
     height: 20em;
     z-index: 5;
   } 
+  
+  .picture{
+    background-color: rgba(255,255,255,0.7);
+    border: 1px transparent;
+    border-radius: 50%;
+    height: 170%;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .png{
+    padding-top: 5%;
+  }
