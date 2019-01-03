@@ -12,10 +12,17 @@ import {
   MatToolbarModule,
   MatButtonModule
 } from '@angular/material';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 const routes=[
   {path: 'about', component: AboutComponent},
-  {path: 'products', component: ProductsComponent}
+  {path: 'products', component: ProductsComponent},
+  {path: '', component: HomeComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'register', component: RegisterComponent}
 ]
 
 @NgModule({
@@ -23,7 +30,10 @@ const routes=[
     AppComponent,
     AboutComponent,
     ProductsComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
