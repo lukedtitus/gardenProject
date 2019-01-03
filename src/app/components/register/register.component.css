@@ -1,0 +1,15 @@
+.body {
+    height: 70em;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('https://images.unsplash.com/photo-1428856472086-8674d9cbd6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') fixed center center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.card{
+    height: 35%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.7);
+    margin: auto;
+}
