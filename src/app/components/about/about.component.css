@@ -3,7 +3,56 @@
 }
 
 .content{
+    font-family: "Roboto", Arial, serif;
     border: solid 1px black;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 3%;
+}
+
+.contact{
+    margin:3;
+}
+    
+.contactContainer{
+    width: 100%;
+    padding: 2rem ;    
+    text-align: center;
+}
+h2{
+    font-weight: heavy;
+    padding: 2rem;
+    font-family: "Roboto", Arial, serif;
+}
+  
+i {
+    font-size: 1.25rem;
+    font-family: "Roboto", Arial, serif;
+}
+  
+.btnContainer {
+    padding-left: 1%;
+}
+  
+.btn {
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.5rem;
+    padding-left: 1%;
+    border-radius: 10%;
+    font-family: "Roboto", Arial,
+}
+
+.row {
+    padding-left: 2%;
+}
+  
+button { 
+    margin: 80px;
+    
+}
+  
+.submitForm {
+    width:95%;
+    margin-left:auto;
 }
