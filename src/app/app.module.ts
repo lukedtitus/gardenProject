@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductsComponent } from './components/products/products.component';
 import { RouterModule, Routes } from '@angular/router';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { DatabaseService } from './services/database.service';
+import { HttpClientModule } from '@angular/common/http'
 
 const routes=[
   {path: 'about', component: AboutComponent},
@@ -26,7 +25,7 @@ const routes=[
     RouterModule.forRoot(routes),
     HttpClientModule
   ],
-  providers: [DatabaseService, HttpClient],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
